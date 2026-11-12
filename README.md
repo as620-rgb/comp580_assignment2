@@ -1,10 +1,5 @@
 # MinHash for Efficient Agent Trajectories
 
-step1: git clone 
-[Spartacus](https://github.com/sahiljoshi515/Spartacus)
-[Assignment 2 datasets](https://github.com/sahiljoshi515/Assignment2_COMP_580).
-
-
 ## The three implementation files
 
 | File | What it does |
@@ -22,12 +17,12 @@ Supporting scripts: `run.py` (experiment runner), `run_all.sh` / `auto_run.sh` (
 Python 3.12; the code uses only the standard library (matplotlib only for the figures).
 
 ```sh
-git clone <this repository> a3 && cd a3
+git clone <this repository> a2 && cd a2
 git clone https://github.com/sahiljoshi515/Spartacus.git
 git clone https://github.com/sahiljoshi515/Assignment2_COMP_580.git
 
-conda create -n comp580_a3 python=3.12 -y
-conda activate comp580_a3
+conda create -n comp580_a2 python=3.12 -y
+conda activate comp580_a2
 pip install matplotlib
 
 echo 'GEMINI_API_KEY=your-key' > .env    # read by run.py; git-ignored
@@ -80,13 +75,3 @@ results file), `--task-opt` / `--content-opt KEY=VALUE` (passed to `TaskIndex` /
   tool-output characters before/after content folding.
 - `results/summary_limit10.json`, `results/offline.json`: aggregates behind the report's tables.
 - `figures/`: the report's figures.
-
-## Notes
-
-- Neither the agent nor `policy.py` / `content.py` reads `hidden/`. Answers are graded only by each
-  dataset's `verify.py`, run as a separate process. `offline.py` uses `verify.py` only to score its
-  replay.
-- Spartacus samples at temperature 0.4 with no seed, so re-runs reproduce the protocol but not
-  identical token counts. All of our own randomness (MinHash hash functions) uses seed 580.
-- Changing `policy.py`, `content.py` or their options invalidates earlier results: delete `results/`
-  (or pass `--out`) before re-running, since `--resume` reuses finished tasks.
