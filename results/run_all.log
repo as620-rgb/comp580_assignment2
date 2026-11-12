@@ -1,0 +1,341 @@
+[baseline/tickets 6/20] T-27a7f4 FAIL 20.1s
+[baseline/tickets 7/20] T-4d016b PASS 7.3s
+[baseline/tickets 8/20] T-c4a890 PASS 18.6s
+[baseline/tickets 9/20] T-1cb53c PASS 9.3s
+[baseline/tickets 10/20] T-a4f2cd FAIL 11.3s
+[baseline/tickets 11/20] T-17ccf4 PASS 8.3s
+[baseline/tickets 12/20] T-879895 PASS 10.3s
+  rate limited; waiting 60s
+  rate limited; waiting 60s
+  rate limited; waiting 60s
+  rate limited; waiting 60s
+  rate limited; waiting 60s
+  rate limited; waiting 60s
+  rate limited; waiting 60s
+  rate limited; waiting 60s
+  rate limited; waiting 60s
+  rate limited; waiting 60s
+  rate limited; waiting 60s
+  rate limited; waiting 60s
+  rate limited; waiting 60s
+  rate limited; waiting 60s
+  rate limited; waiting 60s
+baseline/tickets T-e65487: RuntimeError: HTTP 429 from generativelanguage.googleapis.com: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your curre
+Stopped; fix the cause and rerun with --resume.
+tickets    acc=0.600 reused=0 (wrong 0) tools=110 requests=120 in_tok=999068 time=107.3s
+  rate limited; waiting 60s
+  rate limited; waiting 60s
+  rate limited; waiting 60s
+  rate limited; waiting 60s
+run_all.sh: line 10: 58676 Terminated: 15          python run.py --datasets "$dataset" --config "$config" --resume "$@"
+tickets    acc=0.600 reused=0 (wrong 0) tools=110 requests=120 in_tok=999068 time=107.3s
+[task/tickets 6/10] T-27a7f4 PASS 8.7s
+[task/tickets 7/10] T-4d016b PASS 9.3s
+[task/tickets 8/10] T-c4a890 PASS (reused) 0.0s
+[task/tickets 9/10] T-1cb53c PASS 7.1s
+[task/tickets 10/10] T-a4f2cd PASS 7.5s
+tickets    acc=0.800 reused=1 (wrong 0) tools=79 requests=88 in_tok=495653 time=70.8s
+[content/tickets 6/10] T-27a7f4 PASS 10.2s
+[content/tickets 7/10] T-4d016b PASS 9.6s
+[content/tickets 8/10] T-c4a890 PASS 9.5s
+[content/tickets 9/10] T-1cb53c PASS 6.6s
+[content/tickets 10/10] T-a4f2cd PASS 13.5s
+tickets    acc=0.800 reused=0 (wrong 0) tools=103 requests=113 in_tok=761489 time=190.2s
+[both/tickets 6/10] T-27a7f4 PASS 30.5s
+[both/tickets 7/10] T-4d016b PASS 9.5s
+[both/tickets 8/10] T-c4a890 PASS (reused) 0.0s
+[both/tickets 9/10] T-1cb53c PASS 7.3s
+[both/tickets 10/10] T-a4f2cd PASS 9.9s
+tickets    acc=0.800 reused=1 (wrong 0) tools=97 requests=106 in_tok=646947 time=98.5s
+[baseline/bugs 1/10] T-77ebd3 PASS 10.6s
+[baseline/bugs 2/10] T-90de5f PASS 8.4s
+[baseline/bugs 3/10] T-8d0531 PASS 11.9s
+[baseline/bugs 4/10] T-986f57 PASS 7.8s
+[baseline/bugs 5/10] T-67e674 PASS 9.1s
+[baseline/bugs 6/10] T-e5023d PASS 6.9s
+[baseline/bugs 7/10] T-7fbf8b PASS 37.1s
+[baseline/bugs 8/10] T-63ed36 FAIL 38.9s
+[baseline/bugs 9/10] T-344f1a PASS 9.7s
+[baseline/bugs 10/10] T-8a9bff PASS 6.9s
+bugs       acc=0.900 reused=0 (wrong 0) tools=155 requests=165 in_tok=4379331 time=147.3s
+[task/bugs 1/10] T-77ebd3 PASS 10.2s
+[task/bugs 2/10] T-90de5f PASS 6.5s
+[task/bugs 3/10] T-8d0531 PASS 9.4s
+[task/bugs 4/10] T-986f57 PASS 9.0s
+[task/bugs 5/10] T-67e674 PASS 5.8s
+[task/bugs 6/10] T-e5023d PASS 34.1s
+[task/bugs 7/10] T-7fbf8b PASS 9.9s
+[task/bugs 8/10] T-63ed36 PASS (reused) 0.0s
+[task/bugs 9/10] T-344f1a PASS 13.4s
+[task/bugs 10/10] T-8a9bff PASS (reused) 0.0s
+bugs       acc=1.000 reused=2 (wrong 0) tools=102 requests=110 in_tok=2077119 time=98.2s
+[content/bugs 1/10] T-77ebd3 PASS 10.4s
+[content/bugs 2/10] T-90de5f PASS 13.4s
+[content/bugs 3/10] T-8d0531 PASS 8.6s
+[content/bugs 4/10] T-986f57 PASS 6.8s
+[content/bugs 5/10] T-67e674 PASS 7.5s
+[content/bugs 6/10] T-e5023d PASS 13.1s
+[content/bugs 7/10] T-7fbf8b PASS 10.2s
+[content/bugs 8/10] T-63ed36 PASS 8.1s
+[content/bugs 9/10] T-344f1a PASS 8.4s
+[content/bugs 10/10] T-8a9bff PASS 8.3s
+bugs       acc=1.000 reused=0 (wrong 0) tools=101 requests=111 in_tok=1839362 time=94.8s
+[both/bugs 1/10] T-77ebd3 PASS 13.0s
+[both/bugs 2/10] T-90de5f FAIL 40.4s
+[both/bugs 3/10] T-8d0531 FAIL 4.8s
+[both/bugs 4/10] T-986f57 PASS 8.2s
+[both/bugs 5/10] T-67e674 PASS 9.9s
+[both/bugs 6/10] T-e5023d FAIL 9.1s
+[both/bugs 7/10] T-7fbf8b FAIL 36.3s
+[both/bugs 8/10] T-63ed36 PASS (reused) 0.0s
+[both/bugs 9/10] T-344f1a PASS 10.3s
+[both/bugs 10/10] T-8a9bff PASS (reused) 0.0s
+bugs       acc=0.600 reused=2 (wrong 0) tools=142 requests=150 in_tok=3751432 time=131.9s
+[baseline/docs 1/10] T-bec0fe PASS 7.5s
+[baseline/docs 2/10] T-8a000c PASS 8.9s
+[baseline/docs 3/10] T-a24d3d PASS 7.0s
+[baseline/docs 4/10] T-daca19 PASS 7.7s
+[baseline/docs 5/10] T-9f7d7c PASS 7.2s
+[baseline/docs 6/10] T-762104 PASS 8.4s
+[baseline/docs 7/10] T-fff8e2 PASS 6.9s
+[baseline/docs 8/10] T-71db26 PASS 6.7s
+[baseline/docs 9/10] T-a1eccd PASS 9.2s
+[baseline/docs 10/10] T-46d840 PASS 7.0s
+docs       acc=1.000 reused=0 (wrong 0) tools=87 requests=97 in_tok=652552 time=76.6s
+[task/docs 1/10] T-bec0fe PASS 8.4s
+[task/docs 2/10] T-8a000c PASS 32.8s
+[task/docs 3/10] T-a24d3d PASS (reused) 0.0s
+[task/docs 4/10] T-daca19 PASS (reused) 0.0s
+[task/docs 5/10] T-9f7d7c PASS 8.0s
+[task/docs 6/10] T-762104 PASS 12.1s
+[task/docs 7/10] T-fff8e2 PASS 10.4s
+[task/docs 8/10] T-71db26 PASS (reused) 0.0s
+[task/docs 9/10] T-a1eccd PASS (reused) 0.0s
+[task/docs 10/10] T-46d840 PASS 7.1s
+docs       acc=1.000 reused=4 (wrong 0) tools=88 requests=94 in_tok=607356 time=78.7s
+[content/docs 1/10] T-bec0fe PASS 7.5s
+[content/docs 2/10] T-8a000c PASS 9.9s
+[content/docs 3/10] T-a24d3d PASS 7.5s
+[content/docs 4/10] T-daca19 PASS 8.0s
+[content/docs 5/10] T-9f7d7c PASS 11.1s
+[content/docs 6/10] T-762104 FAIL 10.2s
+[content/docs 7/10] T-fff8e2 PASS 5.7s
+[content/docs 8/10] T-71db26 PASS 6.5s
+[content/docs 9/10] T-a1eccd FAIL 7.3s
+[content/docs 10/10] T-46d840 PASS 6.0s
+docs       acc=0.800 reused=0 (wrong 0) tools=90 requests=100 in_tok=849593 time=79.7s
+[both/docs 1/10] T-bec0fe PASS 18.0s
+[both/docs 2/10] T-8a000c PASS 11.8s
+[both/docs 3/10] T-a24d3d PASS (reused) 0.0s
+[both/docs 4/10] T-daca19 PASS (reused) 0.0s
+[both/docs 5/10] T-9f7d7c PASS 6.8s
+[both/docs 6/10] T-762104 PASS 10.9s
+[both/docs 7/10] T-fff8e2 PASS 7.7s
+[both/docs 8/10] T-71db26 PASS (reused) 0.0s
+[both/docs 9/10] T-a1eccd PASS (reused) 0.0s
+[both/docs 10/10] T-46d840 PASS 6.3s
+docs       acc=1.000 reused=4 (wrong 0) tools=71 requests=77 in_tok=403677 time=61.4s
+[baseline/citations 1/10] T-6aebce PASS 11.3s
+[baseline/citations 2/10] T-aeee29 PASS 15.1s
+[baseline/citations 3/10] T-3f588b PASS 34.5s
+[baseline/citations 4/10] T-52023e PASS 20.3s
+[baseline/citations 5/10] T-4620e4 PASS 8.1s
+[baseline/citations 6/10] T-f4c39f FAIL 16.1s
+[baseline/citations 7/10] T-717be4 PASS 14.6s
+[baseline/citations 8/10] T-6e2719 PASS 16.2s
+[baseline/citations 9/10] T-d42368 PASS 17.7s
+[baseline/citations 10/10] T-ef3d05 PASS 10.0s
+citations  acc=0.900 reused=0 (wrong 0) tools=152 requests=162 in_tok=3658611 time=163.8s
+[task/citations 1/10] T-6aebce PASS (reused) 0.0s
+[task/citations 2/10] T-aeee29 PASS 15.4s
+[task/citations 3/10] T-3f588b FAIL 11.6s
+[task/citations 4/10] T-52023e PASS 14.2s
+[task/citations 5/10] T-4620e4 PASS (reused) 0.0s
+[task/citations 6/10] T-f4c39f PASS 13.9s
+[task/citations 7/10] T-717be4 PASS (reused) 0.0s
+[task/citations 8/10] T-6e2719 PASS (reused) 0.0s
+[task/citations 9/10] T-d42368 PASS 9.2s
+[task/citations 10/10] T-ef3d05 PASS (reused) 0.0s
+citations  acc=0.900 reused=5 (wrong 0) tools=68 requests=73 in_tok=992379 time=64.3s
+[content/citations 1/10] T-6aebce PASS 7.1s
+[content/citations 2/10] T-aeee29 FAIL 9.3s
+[content/citations 3/10] T-3f588b FAIL 10.2s
+[content/citations 4/10] T-52023e FAIL 10.4s
+[content/citations 5/10] T-4620e4 PASS 8.7s
+[content/citations 6/10] T-f4c39f PASS 26.5s
+[content/citations 7/10] T-717be4 PASS 13.3s
+[content/citations 8/10] T-6e2719 PASS 16.0s
+[content/citations 9/10] T-d42368 PASS 10.5s
+[content/citations 10/10] T-ef3d05 PASS 32.0s
+citations  acc=0.700 reused=0 (wrong 0) tools=145 requests=155 in_tok=1760749 time=144.0s
+[both/citations 1/10] T-6aebce PASS (reused) 0.0s
+[both/citations 2/10] T-aeee29 PASS 10.0s
+[both/citations 3/10] T-3f588b FAIL 14.1s
+[both/citations 4/10] T-52023e PASS 10.5s
+[both/citations 5/10] T-4620e4 PASS (reused) 0.0s
+[both/citations 6/10] T-f4c39f FAIL 8.5s
+[both/citations 7/10] T-717be4 PASS (reused) 0.0s
+[both/citations 8/10] T-6e2719 PASS (reused) 0.0s
+[both/citations 9/10] T-d42368 PASS 13.5s
+[both/citations 10/10] T-ef3d05 PASS (reused) 0.0s
+citations  acc=0.800 reused=5 (wrong 0) tools=60 requests=64 in_tok=1125154 time=56.7s
+[baseline/configs 6/10] T-d5fe01 PASS 7.0s
+[baseline/configs 7/10] T-602bce PASS 24.0s
+[baseline/configs 8/10] T-7032ce PASS 7.1s
+[baseline/configs 9/10] T-807878 PASS 11.5s
+[baseline/configs 10/10] T-f8c0a6 PASS 4.4s
+configs    acc=1.000 reused=0 (wrong 0) tools=103 requests=112 in_tok=795590 time=103.6s
+[task/configs 6/10] T-d5fe01 PASS 7.0s
+[task/configs 7/10] T-602bce FAIL 30.1s
+[task/configs 8/10] T-7032ce PASS (reused) 0.0s
+[task/configs 9/10] T-807878 PASS 17.7s
+[task/configs 10/10] T-f8c0a6 PASS 6.7s
+configs    acc=0.900 reused=4 (wrong 0) tools=79 requests=85 in_tok=790141 time=76.6s
+[content/configs 6/10] T-d5fe01 PASS 8.1s
+[content/configs 7/10] T-602bce PASS 35.9s
+[content/configs 8/10] T-7032ce PASS 5.8s
+[content/configs 9/10] T-807878 PASS 22.7s
+[content/configs 10/10] T-f8c0a6 PASS 4.7s
+configs    acc=1.000 reused=0 (wrong 0) tools=117 requests=127 in_tok=734976 time=116.2s
+[both/configs 6/10] T-d5fe01 PASS 6.1s
+[both/configs 7/10] T-602bce PASS 17.4s
+[both/configs 8/10] T-7032ce PASS (reused) 0.0s
+[both/configs 9/10] T-807878 PASS 32.3s
+[both/configs 10/10] T-f8c0a6 PASS 6.8s
+configs    acc=1.000 reused=4 (wrong 0) tools=85 requests=91 in_tok=677898 time=110.5s
+[baseline/hosts 1/10] T-f79c5b PASS 8.2s
+[baseline/hosts 2/10] T-cfd279 PASS 8.8s
+[baseline/hosts 3/10] T-25de18 PASS 8.8s
+[baseline/hosts 4/10] T-9ad237 PASS 7.9s
+[baseline/hosts 5/10] T-bae5fa PASS 6.5s
+[baseline/hosts 6/10] T-5376d5 PASS 10.7s
+[baseline/hosts 7/10] T-60abc6 PASS 7.1s
+[baseline/hosts 8/10] T-d92c2b PASS 6.7s
+[baseline/hosts 9/10] T-45d76f PASS 9.3s
+[baseline/hosts 10/10] T-c19bf7 PASS 10.7s
+hosts      acc=1.000 reused=0 (wrong 0) tools=91 requests=101 in_tok=496218 time=84.6s
+[task/hosts 1/10] T-f79c5b PASS 7.4s
+[task/hosts 2/10] T-cfd279 PASS 9.1s
+[task/hosts 3/10] T-25de18 PASS 7.7s
+[task/hosts 4/10] T-9ad237 PASS 9.1s
+[task/hosts 5/10] T-bae5fa PASS 5.9s
+[task/hosts 6/10] T-5376d5 PASS (reused) 0.0s
+[task/hosts 7/10] T-60abc6 PASS 6.0s
+[task/hosts 8/10] T-d92c2b PASS (reused) 0.0s
+[task/hosts 9/10] T-45d76f PASS 5.7s
+[task/hosts 10/10] T-c19bf7 PASS 6.9s
+hosts      acc=1.000 reused=2 (wrong 0) tools=66 requests=73 in_tok=337834 time=57.7s
+[content/hosts 1/10] T-f79c5b PASS 7.7s
+[content/hosts 2/10] T-cfd279 PASS 7.3s
+[content/hosts 3/10] T-25de18 PASS 14.1s
+[content/hosts 4/10] T-9ad237 PASS 8.5s
+[content/hosts 5/10] T-bae5fa PASS 4.8s
+[content/hosts 6/10] T-5376d5 PASS 11.6s
+[content/hosts 7/10] T-60abc6 PASS 8.0s
+[content/hosts 8/10] T-d92c2b PASS 6.1s
+[content/hosts 9/10] T-45d76f PASS 6.3s
+[content/hosts 10/10] T-c19bf7 PASS 6.7s
+hosts      acc=1.000 reused=0 (wrong 0) tools=93 requests=103 in_tok=735868 time=81.2s
+[both/hosts 1/10] T-f79c5b PASS 9.9s
+[both/hosts 2/10] T-cfd279 PASS 6.2s
+[both/hosts 3/10] T-25de18 PASS 7.9s
+[both/hosts 4/10] T-9ad237 PASS 8.0s
+[both/hosts 5/10] T-bae5fa PASS 5.9s
+[both/hosts 6/10] T-5376d5 PASS (reused) 0.0s
+[both/hosts 7/10] T-60abc6 PASS 6.3s
+[both/hosts 8/10] T-d92c2b PASS (reused) 0.0s
+[both/hosts 9/10] T-45d76f PASS 11.7s
+[both/hosts 10/10] T-c19bf7 PASS 9.2s
+hosts      acc=1.000 reused=2 (wrong 0) tools=79 requests=85 in_tok=424395 time=65.3s
+[baseline/code 1/10] T-1429da PASS 8.4s
+[baseline/code 2/10] T-b372a7 PASS 12.6s
+[baseline/code 3/10] T-2a13d0 PASS 7.8s
+[baseline/code 4/10] T-17d305 PASS 6.9s
+[baseline/code 5/10] T-b94ebe PASS 8.3s
+[baseline/code 6/10] T-168a7a PASS 9.7s
+[baseline/code 7/10] T-b1fec3 PASS 8.7s
+[baseline/code 8/10] T-2f07ad PASS 5.7s
+[baseline/code 9/10] T-623e9a PASS 10.3s
+[baseline/code 10/10] T-504956 PASS 18.5s
+code       acc=1.000 reused=0 (wrong 0) tools=99 requests=109 in_tok=498419 time=96.9s
+[task/code 1/10] T-1429da PASS 6.9s
+[task/code 2/10] T-b372a7 PASS 8.6s
+[task/code 3/10] T-2a13d0 PASS 7.3s
+[task/code 4/10] T-17d305 PASS 8.2s
+[task/code 5/10] T-b94ebe PASS 12.2s
+[task/code 6/10] T-168a7a PASS 11.8s
+[task/code 7/10] T-b1fec3 PASS 7.6s
+[task/code 8/10] T-2f07ad PASS 8.1s
+[task/code 9/10] T-623e9a PASS 5.3s
+[task/code 10/10] T-504956 PASS (reused) 0.0s
+code       acc=1.000 reused=1 (wrong 0) tools=88 requests=97 in_tok=499521 time=76.0s
+[content/code 1/10] T-1429da PASS 10.4s
+[content/code 2/10] T-b372a7 PASS 9.7s
+[content/code 3/10] T-2a13d0 PASS 8.4s
+[content/code 4/10] T-17d305 PASS 10.4s
+[content/code 5/10] T-b94ebe PASS 14.6s
+[content/code 6/10] T-168a7a PASS 8.5s
+[content/code 7/10] T-b1fec3 PASS 8.2s
+[content/code 8/10] T-2f07ad PASS 9.3s
+[content/code 9/10] T-623e9a PASS 6.8s
+[content/code 10/10] T-504956 PASS 9.4s
+code       acc=1.000 reused=0 (wrong 0) tools=101 requests=111 in_tok=759342 time=95.8s
+[both/code 1/10] T-1429da PASS 15.7s
+[both/code 2/10] T-b372a7 PASS 10.5s
+[both/code 3/10] T-2a13d0 PASS 5.4s
+[both/code 4/10] T-17d305 PASS 8.3s
+[both/code 5/10] T-b94ebe PASS 16.2s
+[both/code 6/10] T-168a7a PASS 16.7s
+[both/code 7/10] T-b1fec3 PASS 13.4s
+[both/code 8/10] T-2f07ad PASS 6.7s
+[both/code 9/10] T-623e9a PASS 5.3s
+[both/code 10/10] T-504956 PASS (reused) 0.0s
+code       acc=1.000 reused=1 (wrong 0) tools=109 requests=118 in_tok=833972 time=98.3s
+[baseline/revisions 1/10] T-73df3b PASS 18.0s
+[baseline/revisions 2/10] T-eeb8ed PASS 9.5s
+[baseline/revisions 3/10] T-5e8199 FAIL 18.6s
+[baseline/revisions 4/10] T-e44ab3 PASS 12.0s
+[baseline/revisions 5/10] T-64658e PASS 18.9s
+[baseline/revisions 6/10] T-b50c5b FAIL 16.9s
+[baseline/revisions 7/10] T-047a09 PASS 13.9s
+[baseline/revisions 8/10] T-2e1d53 PASS 7.8s
+[baseline/revisions 9/10] T-f76e99 PASS 7.6s
+[baseline/revisions 10/10] T-08fb24 PASS 13.9s
+revisions  acc=0.800 reused=0 (wrong 0) tools=138 requests=148 in_tok=1098843 time=137.0s
+[task/revisions 1/10] T-73df3b PASS 9.3s
+[task/revisions 2/10] T-eeb8ed PASS (reused) 0.0s
+[task/revisions 3/10] T-5e8199 FAIL 11.8s
+[task/revisions 4/10] T-e44ab3 PASS 12.4s
+[task/revisions 5/10] T-64658e PASS 16.2s
+[task/revisions 6/10] T-b50c5b PASS 16.0s
+[task/revisions 7/10] T-047a09 PASS 10.4s
+[task/revisions 8/10] T-2e1d53 PASS 7.8s
+[task/revisions 9/10] T-f76e99 PASS (reused) 0.0s
+[task/revisions 10/10] T-08fb24 PASS 12.6s
+revisions  acc=0.900 reused=2 (wrong 0) tools=107 requests=115 in_tok=959597 time=96.6s
+[content/revisions 1/10] T-73df3b PASS 15.3s
+[content/revisions 2/10] T-eeb8ed PASS 7.0s
+[content/revisions 3/10] T-5e8199 PASS 13.8s
+[content/revisions 4/10] T-e44ab3 PASS 12.8s
+[content/revisions 5/10] T-64658e PASS 17.0s
+[content/revisions 6/10] T-b50c5b PASS 13.8s
+[content/revisions 7/10] T-047a09 PASS 11.9s
+[content/revisions 8/10] T-2e1d53 PASS 6.3s
+[content/revisions 9/10] T-f76e99 PASS 8.6s
+[content/revisions 10/10] T-08fb24 PASS 8.9s
+revisions  acc=1.000 reused=0 (wrong 0) tools=123 requests=133 in_tok=880074 time=115.4s
+[both/revisions 1/10] T-73df3b PASS 12.5s
+[both/revisions 2/10] T-eeb8ed PASS (reused) 0.0s
+[both/revisions 3/10] T-5e8199 PASS 12.5s
+[both/revisions 4/10] T-e44ab3 PASS 10.9s
+[both/revisions 5/10] T-64658e PASS (reused) 0.0s
+[both/revisions 6/10] T-b50c5b PASS 9.9s
+[both/revisions 7/10] T-047a09 FAIL 13.6s
+[both/revisions 8/10] T-2e1d53 PASS 6.1s
+[both/revisions 9/10] T-f76e99 PASS (reused) 0.0s
+[both/revisions 10/10] T-08fb24 PASS 11.6s
+revisions  acc=0.900 reused=3 (wrong 0) tools=91 requests=98 in_tok=531694 time=77.0s
+=== 11-11 22:37 limit 10 finished; stopped before limit 20

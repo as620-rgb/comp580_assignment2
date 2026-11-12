@@ -1,0 +1,1534 @@
+{
+  "minhash": {
+    "num_perm": 128,
+    "shingle": 3
+  },
+  "task": {
+    "tickets": {
+      "tasks": 70,
+      "sweep": [
+        {
+          "threshold": 0.05,
+          "gated_reused": 27,
+          "gated_wrong": 15,
+          "sim_reused": 70,
+          "sim_wrong": 33
+        },
+        {
+          "threshold": 0.1,
+          "gated_reused": 28,
+          "gated_wrong": 15,
+          "sim_reused": 70,
+          "sim_wrong": 33
+        },
+        {
+          "threshold": 0.15,
+          "gated_reused": 31,
+          "gated_wrong": 15,
+          "sim_reused": 67,
+          "sim_wrong": 32
+        },
+        {
+          "threshold": 0.2,
+          "gated_reused": 27,
+          "gated_wrong": 9,
+          "sim_reused": 57,
+          "sim_wrong": 22
+        },
+        {
+          "threshold": 0.25,
+          "gated_reused": 25,
+          "gated_wrong": 9,
+          "sim_reused": 42,
+          "sim_wrong": 16
+        },
+        {
+          "threshold": 0.3,
+          "gated_reused": 20,
+          "gated_wrong": 8,
+          "sim_reused": 31,
+          "sim_wrong": 12
+        },
+        {
+          "threshold": 0.35,
+          "gated_reused": 19,
+          "gated_wrong": 8,
+          "sim_reused": 25,
+          "sim_wrong": 11
+        },
+        {
+          "threshold": 0.4,
+          "gated_reused": 20,
+          "gated_wrong": 8,
+          "sim_reused": 24,
+          "sim_wrong": 11
+        },
+        {
+          "threshold": 0.45,
+          "gated_reused": 20,
+          "gated_wrong": 8,
+          "sim_reused": 24,
+          "sim_wrong": 11
+        },
+        {
+          "threshold": 0.5,
+          "gated_reused": 20,
+          "gated_wrong": 7,
+          "sim_reused": 23,
+          "sim_wrong": 10
+        },
+        {
+          "threshold": 0.55,
+          "gated_reused": 15,
+          "gated_wrong": 2,
+          "sim_reused": 18,
+          "sim_wrong": 5
+        },
+        {
+          "threshold": 0.6,
+          "gated_reused": 13,
+          "gated_wrong": 0,
+          "sim_reused": 16,
+          "sim_wrong": 3
+        },
+        {
+          "threshold": 0.65,
+          "gated_reused": 11,
+          "gated_wrong": 0,
+          "sim_reused": 14,
+          "sim_wrong": 3
+        },
+        {
+          "threshold": 0.7,
+          "gated_reused": 11,
+          "gated_wrong": 0,
+          "sim_reused": 14,
+          "sim_wrong": 3
+        },
+        {
+          "threshold": 0.75,
+          "gated_reused": 10,
+          "gated_wrong": 0,
+          "sim_reused": 13,
+          "sim_wrong": 3
+        },
+        {
+          "threshold": 0.8,
+          "gated_reused": 8,
+          "gated_wrong": 0,
+          "sim_reused": 10,
+          "sim_wrong": 2
+        },
+        {
+          "threshold": 0.85,
+          "gated_reused": 7,
+          "gated_wrong": 0,
+          "sim_reused": 7,
+          "sim_wrong": 0
+        },
+        {
+          "threshold": 0.9,
+          "gated_reused": 7,
+          "gated_wrong": 0,
+          "sim_reused": 7,
+          "sim_wrong": 0
+        },
+        {
+          "threshold": 0.95,
+          "gated_reused": 7,
+          "gated_wrong": 0,
+          "sim_reused": 7,
+          "sim_wrong": 0
+        }
+      ],
+      "calibrated": {
+        "threshold": 0.6703125,
+        "reused": 11,
+        "wrong": 0,
+        "ms_per_lookup": 0.9436470142515775
+      }
+    },
+    "bugs": {
+      "tasks": 60,
+      "sweep": [
+        {
+          "threshold": 0.05,
+          "gated_reused": 23,
+          "gated_wrong": 5,
+          "sim_reused": 60,
+          "sim_wrong": 39
+        },
+        {
+          "threshold": 0.1,
+          "gated_reused": 23,
+          "gated_wrong": 5,
+          "sim_reused": 60,
+          "sim_wrong": 39
+        },
+        {
+          "threshold": 0.15,
+          "gated_reused": 23,
+          "gated_wrong": 5,
+          "sim_reused": 59,
+          "sim_wrong": 38
+        },
+        {
+          "threshold": 0.2,
+          "gated_reused": 20,
+          "gated_wrong": 3,
+          "sim_reused": 57,
+          "sim_wrong": 36
+        },
+        {
+          "threshold": 0.25,
+          "gated_reused": 17,
+          "gated_wrong": 0,
+          "sim_reused": 48,
+          "sim_wrong": 28
+        },
+        {
+          "threshold": 0.3,
+          "gated_reused": 16,
+          "gated_wrong": 0,
+          "sim_reused": 40,
+          "sim_wrong": 20
+        },
+        {
+          "threshold": 0.35,
+          "gated_reused": 16,
+          "gated_wrong": 0,
+          "sim_reused": 27,
+          "sim_wrong": 9
+        },
+        {
+          "threshold": 0.4,
+          "gated_reused": 14,
+          "gated_wrong": 0,
+          "sim_reused": 22,
+          "sim_wrong": 8
+        },
+        {
+          "threshold": 0.45,
+          "gated_reused": 13,
+          "gated_wrong": 0,
+          "sim_reused": 21,
+          "sim_wrong": 8
+        },
+        {
+          "threshold": 0.5,
+          "gated_reused": 13,
+          "gated_wrong": 0,
+          "sim_reused": 20,
+          "sim_wrong": 7
+        },
+        {
+          "threshold": 0.55,
+          "gated_reused": 13,
+          "gated_wrong": 0,
+          "sim_reused": 18,
+          "sim_wrong": 5
+        },
+        {
+          "threshold": 0.6,
+          "gated_reused": 13,
+          "gated_wrong": 0,
+          "sim_reused": 18,
+          "sim_wrong": 5
+        },
+        {
+          "threshold": 0.65,
+          "gated_reused": 13,
+          "gated_wrong": 0,
+          "sim_reused": 18,
+          "sim_wrong": 5
+        },
+        {
+          "threshold": 0.7,
+          "gated_reused": 11,
+          "gated_wrong": 0,
+          "sim_reused": 16,
+          "sim_wrong": 5
+        },
+        {
+          "threshold": 0.75,
+          "gated_reused": 9,
+          "gated_wrong": 0,
+          "sim_reused": 13,
+          "sim_wrong": 4
+        },
+        {
+          "threshold": 0.8,
+          "gated_reused": 9,
+          "gated_wrong": 0,
+          "sim_reused": 10,
+          "sim_wrong": 1
+        },
+        {
+          "threshold": 0.85,
+          "gated_reused": 8,
+          "gated_wrong": 0,
+          "sim_reused": 8,
+          "sim_wrong": 0
+        },
+        {
+          "threshold": 0.9,
+          "gated_reused": 6,
+          "gated_wrong": 0,
+          "sim_reused": 6,
+          "sim_wrong": 0
+        },
+        {
+          "threshold": 0.95,
+          "gated_reused": 6,
+          "gated_wrong": 0,
+          "sim_reused": 6,
+          "sim_wrong": 0
+        }
+      ],
+      "calibrated": {
+        "threshold": 0.38125,
+        "reused": 16,
+        "wrong": 0,
+        "ms_per_lookup": 1.5850006833109849
+      }
+    },
+    "docs": {
+      "tasks": 60,
+      "sweep": [
+        {
+          "threshold": 0.05,
+          "gated_reused": 19,
+          "gated_wrong": 0,
+          "sim_reused": 60,
+          "sim_wrong": 41
+        },
+        {
+          "threshold": 0.1,
+          "gated_reused": 19,
+          "gated_wrong": 0,
+          "sim_reused": 60,
+          "sim_wrong": 41
+        },
+        {
+          "threshold": 0.15,
+          "gated_reused": 19,
+          "gated_wrong": 0,
+          "sim_reused": 58,
+          "sim_wrong": 39
+        },
+        {
+          "threshold": 0.2,
+          "gated_reused": 19,
+          "gated_wrong": 0,
+          "sim_reused": 57,
+          "sim_wrong": 38
+        },
+        {
+          "threshold": 0.25,
+          "gated_reused": 19,
+          "gated_wrong": 0,
+          "sim_reused": 43,
+          "sim_wrong": 24
+        },
+        {
+          "threshold": 0.3,
+          "gated_reused": 18,
+          "gated_wrong": 0,
+          "sim_reused": 33,
+          "sim_wrong": 15
+        },
+        {
+          "threshold": 0.35,
+          "gated_reused": 15,
+          "gated_wrong": 0,
+          "sim_reused": 26,
+          "sim_wrong": 11
+        },
+        {
+          "threshold": 0.4,
+          "gated_reused": 14,
+          "gated_wrong": 0,
+          "sim_reused": 23,
+          "sim_wrong": 9
+        },
+        {
+          "threshold": 0.45,
+          "gated_reused": 14,
+          "gated_wrong": 0,
+          "sim_reused": 23,
+          "sim_wrong": 9
+        },
+        {
+          "threshold": 0.5,
+          "gated_reused": 14,
+          "gated_wrong": 0,
+          "sim_reused": 22,
+          "sim_wrong": 8
+        },
+        {
+          "threshold": 0.55,
+          "gated_reused": 14,
+          "gated_wrong": 0,
+          "sim_reused": 22,
+          "sim_wrong": 8
+        },
+        {
+          "threshold": 0.6,
+          "gated_reused": 14,
+          "gated_wrong": 0,
+          "sim_reused": 22,
+          "sim_wrong": 8
+        },
+        {
+          "threshold": 0.65,
+          "gated_reused": 14,
+          "gated_wrong": 0,
+          "sim_reused": 22,
+          "sim_wrong": 8
+        },
+        {
+          "threshold": 0.7,
+          "gated_reused": 12,
+          "gated_wrong": 0,
+          "sim_reused": 20,
+          "sim_wrong": 8
+        },
+        {
+          "threshold": 0.75,
+          "gated_reused": 11,
+          "gated_wrong": 0,
+          "sim_reused": 19,
+          "sim_wrong": 8
+        },
+        {
+          "threshold": 0.8,
+          "gated_reused": 10,
+          "gated_wrong": 0,
+          "sim_reused": 18,
+          "sim_wrong": 8
+        },
+        {
+          "threshold": 0.85,
+          "gated_reused": 9,
+          "gated_wrong": 0,
+          "sim_reused": 16,
+          "sim_wrong": 7
+        },
+        {
+          "threshold": 0.9,
+          "gated_reused": 9,
+          "gated_wrong": 0,
+          "sim_reused": 13,
+          "sim_wrong": 4
+        },
+        {
+          "threshold": 0.95,
+          "gated_reused": 7,
+          "gated_wrong": 0,
+          "sim_reused": 7,
+          "sim_wrong": 0
+        }
+      ],
+      "calibrated": {
+        "threshold": 0.3,
+        "reused": 18,
+        "wrong": 0,
+        "ms_per_lookup": 1.4951507000660058
+      }
+    },
+    "citations": {
+      "tasks": 70,
+      "sweep": [
+        {
+          "threshold": 0.05,
+          "gated_reused": 24,
+          "gated_wrong": 0,
+          "sim_reused": 65,
+          "sim_wrong": 38
+        },
+        {
+          "threshold": 0.1,
+          "gated_reused": 24,
+          "gated_wrong": 0,
+          "sim_reused": 62,
+          "sim_wrong": 35
+        },
+        {
+          "threshold": 0.15,
+          "gated_reused": 24,
+          "gated_wrong": 0,
+          "sim_reused": 58,
+          "sim_wrong": 31
+        },
+        {
+          "threshold": 0.2,
+          "gated_reused": 22,
+          "gated_wrong": 0,
+          "sim_reused": 50,
+          "sim_wrong": 25
+        },
+        {
+          "threshold": 0.25,
+          "gated_reused": 21,
+          "gated_wrong": 0,
+          "sim_reused": 42,
+          "sim_wrong": 18
+        },
+        {
+          "threshold": 0.3,
+          "gated_reused": 20,
+          "gated_wrong": 0,
+          "sim_reused": 39,
+          "sim_wrong": 16
+        },
+        {
+          "threshold": 0.35,
+          "gated_reused": 20,
+          "gated_wrong": 0,
+          "sim_reused": 37,
+          "sim_wrong": 14
+        },
+        {
+          "threshold": 0.4,
+          "gated_reused": 18,
+          "gated_wrong": 0,
+          "sim_reused": 34,
+          "sim_wrong": 14
+        },
+        {
+          "threshold": 0.45,
+          "gated_reused": 18,
+          "gated_wrong": 0,
+          "sim_reused": 34,
+          "sim_wrong": 14
+        },
+        {
+          "threshold": 0.5,
+          "gated_reused": 18,
+          "gated_wrong": 0,
+          "sim_reused": 34,
+          "sim_wrong": 14
+        },
+        {
+          "threshold": 0.55,
+          "gated_reused": 18,
+          "gated_wrong": 0,
+          "sim_reused": 34,
+          "sim_wrong": 14
+        },
+        {
+          "threshold": 0.6,
+          "gated_reused": 18,
+          "gated_wrong": 0,
+          "sim_reused": 33,
+          "sim_wrong": 13
+        },
+        {
+          "threshold": 0.65,
+          "gated_reused": 15,
+          "gated_wrong": 0,
+          "sim_reused": 30,
+          "sim_wrong": 13
+        },
+        {
+          "threshold": 0.7,
+          "gated_reused": 15,
+          "gated_wrong": 0,
+          "sim_reused": 28,
+          "sim_wrong": 11
+        },
+        {
+          "threshold": 0.75,
+          "gated_reused": 15,
+          "gated_wrong": 0,
+          "sim_reused": 27,
+          "sim_wrong": 10
+        },
+        {
+          "threshold": 0.8,
+          "gated_reused": 14,
+          "gated_wrong": 0,
+          "sim_reused": 22,
+          "sim_wrong": 8
+        },
+        {
+          "threshold": 0.85,
+          "gated_reused": 13,
+          "gated_wrong": 0,
+          "sim_reused": 19,
+          "sim_wrong": 6
+        },
+        {
+          "threshold": 0.9,
+          "gated_reused": 12,
+          "gated_wrong": 0,
+          "sim_reused": 14,
+          "sim_wrong": 2
+        },
+        {
+          "threshold": 0.95,
+          "gated_reused": 12,
+          "gated_wrong": 0,
+          "sim_reused": 12,
+          "sim_wrong": 0
+        }
+      ],
+      "calibrated": {
+        "threshold": 0.3,
+        "reused": 20,
+        "wrong": 0,
+        "ms_per_lookup": 0.42255952866980806
+      }
+    },
+    "configs": {
+      "tasks": 40,
+      "sweep": [
+        {
+          "threshold": 0.05,
+          "gated_reused": 13,
+          "gated_wrong": 0,
+          "sim_reused": 40,
+          "sim_wrong": 25
+        },
+        {
+          "threshold": 0.1,
+          "gated_reused": 13,
+          "gated_wrong": 0,
+          "sim_reused": 40,
+          "sim_wrong": 25
+        },
+        {
+          "threshold": 0.15,
+          "gated_reused": 13,
+          "gated_wrong": 0,
+          "sim_reused": 40,
+          "sim_wrong": 25
+        },
+        {
+          "threshold": 0.2,
+          "gated_reused": 11,
+          "gated_wrong": 0,
+          "sim_reused": 40,
+          "sim_wrong": 25
+        },
+        {
+          "threshold": 0.25,
+          "gated_reused": 10,
+          "gated_wrong": 0,
+          "sim_reused": 39,
+          "sim_wrong": 24
+        },
+        {
+          "threshold": 0.3,
+          "gated_reused": 9,
+          "gated_wrong": 0,
+          "sim_reused": 33,
+          "sim_wrong": 19
+        },
+        {
+          "threshold": 0.35,
+          "gated_reused": 9,
+          "gated_wrong": 0,
+          "sim_reused": 31,
+          "sim_wrong": 18
+        },
+        {
+          "threshold": 0.4,
+          "gated_reused": 8,
+          "gated_wrong": 0,
+          "sim_reused": 25,
+          "sim_wrong": 15
+        },
+        {
+          "threshold": 0.45,
+          "gated_reused": 8,
+          "gated_wrong": 0,
+          "sim_reused": 23,
+          "sim_wrong": 13
+        },
+        {
+          "threshold": 0.5,
+          "gated_reused": 8,
+          "gated_wrong": 0,
+          "sim_reused": 23,
+          "sim_wrong": 13
+        },
+        {
+          "threshold": 0.55,
+          "gated_reused": 8,
+          "gated_wrong": 0,
+          "sim_reused": 21,
+          "sim_wrong": 12
+        },
+        {
+          "threshold": 0.6,
+          "gated_reused": 7,
+          "gated_wrong": 0,
+          "sim_reused": 16,
+          "sim_wrong": 9
+        },
+        {
+          "threshold": 0.65,
+          "gated_reused": 7,
+          "gated_wrong": 0,
+          "sim_reused": 12,
+          "sim_wrong": 5
+        },
+        {
+          "threshold": 0.7,
+          "gated_reused": 7,
+          "gated_wrong": 0,
+          "sim_reused": 10,
+          "sim_wrong": 3
+        },
+        {
+          "threshold": 0.75,
+          "gated_reused": 7,
+          "gated_wrong": 0,
+          "sim_reused": 10,
+          "sim_wrong": 3
+        },
+        {
+          "threshold": 0.8,
+          "gated_reused": 6,
+          "gated_wrong": 0,
+          "sim_reused": 8,
+          "sim_wrong": 2
+        },
+        {
+          "threshold": 0.85,
+          "gated_reused": 6,
+          "gated_wrong": 0,
+          "sim_reused": 8,
+          "sim_wrong": 2
+        },
+        {
+          "threshold": 0.9,
+          "gated_reused": 6,
+          "gated_wrong": 0,
+          "sim_reused": 6,
+          "sim_wrong": 0
+        },
+        {
+          "threshold": 0.95,
+          "gated_reused": 6,
+          "gated_wrong": 0,
+          "sim_reused": 6,
+          "sim_wrong": 0
+        }
+      ],
+      "calibrated": {
+        "threshold": 0.3,
+        "reused": 9,
+        "wrong": 0,
+        "ms_per_lookup": 0.6281562498770654
+      }
+    },
+    "hosts": {
+      "tasks": 40,
+      "sweep": [
+        {
+          "threshold": 0.05,
+          "gated_reused": 13,
+          "gated_wrong": 0,
+          "sim_reused": 40,
+          "sim_wrong": 29
+        },
+        {
+          "threshold": 0.1,
+          "gated_reused": 13,
+          "gated_wrong": 0,
+          "sim_reused": 40,
+          "sim_wrong": 29
+        },
+        {
+          "threshold": 0.15,
+          "gated_reused": 13,
+          "gated_wrong": 0,
+          "sim_reused": 39,
+          "sim_wrong": 28
+        },
+        {
+          "threshold": 0.2,
+          "gated_reused": 12,
+          "gated_wrong": 0,
+          "sim_reused": 38,
+          "sim_wrong": 27
+        },
+        {
+          "threshold": 0.25,
+          "gated_reused": 11,
+          "gated_wrong": 0,
+          "sim_reused": 36,
+          "sim_wrong": 25
+        },
+        {
+          "threshold": 0.3,
+          "gated_reused": 10,
+          "gated_wrong": 0,
+          "sim_reused": 30,
+          "sim_wrong": 20
+        },
+        {
+          "threshold": 0.35,
+          "gated_reused": 10,
+          "gated_wrong": 0,
+          "sim_reused": 28,
+          "sim_wrong": 18
+        },
+        {
+          "threshold": 0.4,
+          "gated_reused": 10,
+          "gated_wrong": 0,
+          "sim_reused": 26,
+          "sim_wrong": 16
+        },
+        {
+          "threshold": 0.45,
+          "gated_reused": 10,
+          "gated_wrong": 0,
+          "sim_reused": 24,
+          "sim_wrong": 14
+        },
+        {
+          "threshold": 0.5,
+          "gated_reused": 10,
+          "gated_wrong": 0,
+          "sim_reused": 20,
+          "sim_wrong": 10
+        },
+        {
+          "threshold": 0.55,
+          "gated_reused": 10,
+          "gated_wrong": 0,
+          "sim_reused": 18,
+          "sim_wrong": 8
+        },
+        {
+          "threshold": 0.6,
+          "gated_reused": 10,
+          "gated_wrong": 0,
+          "sim_reused": 17,
+          "sim_wrong": 7
+        },
+        {
+          "threshold": 0.65,
+          "gated_reused": 10,
+          "gated_wrong": 0,
+          "sim_reused": 16,
+          "sim_wrong": 6
+        },
+        {
+          "threshold": 0.7,
+          "gated_reused": 10,
+          "gated_wrong": 0,
+          "sim_reused": 16,
+          "sim_wrong": 6
+        },
+        {
+          "threshold": 0.75,
+          "gated_reused": 9,
+          "gated_wrong": 0,
+          "sim_reused": 14,
+          "sim_wrong": 5
+        },
+        {
+          "threshold": 0.8,
+          "gated_reused": 8,
+          "gated_wrong": 0,
+          "sim_reused": 11,
+          "sim_wrong": 3
+        },
+        {
+          "threshold": 0.85,
+          "gated_reused": 6,
+          "gated_wrong": 0,
+          "sim_reused": 8,
+          "sim_wrong": 2
+        },
+        {
+          "threshold": 0.9,
+          "gated_reused": 6,
+          "gated_wrong": 0,
+          "sim_reused": 8,
+          "sim_wrong": 2
+        },
+        {
+          "threshold": 0.95,
+          "gated_reused": 6,
+          "gated_wrong": 0,
+          "sim_reused": 6,
+          "sim_wrong": 0
+        }
+      ],
+      "calibrated": {
+        "threshold": 0.3,
+        "reused": 10,
+        "wrong": 0,
+        "ms_per_lookup": 0.5948489499132847
+      }
+    },
+    "code": {
+      "tasks": 40,
+      "sweep": [
+        {
+          "threshold": 0.05,
+          "gated_reused": 12,
+          "gated_wrong": 0,
+          "sim_reused": 40,
+          "sim_wrong": 27
+        },
+        {
+          "threshold": 0.1,
+          "gated_reused": 12,
+          "gated_wrong": 0,
+          "sim_reused": 40,
+          "sim_wrong": 27
+        },
+        {
+          "threshold": 0.15,
+          "gated_reused": 11,
+          "gated_wrong": 0,
+          "sim_reused": 40,
+          "sim_wrong": 27
+        },
+        {
+          "threshold": 0.2,
+          "gated_reused": 11,
+          "gated_wrong": 0,
+          "sim_reused": 40,
+          "sim_wrong": 27
+        },
+        {
+          "threshold": 0.25,
+          "gated_reused": 11,
+          "gated_wrong": 0,
+          "sim_reused": 40,
+          "sim_wrong": 27
+        },
+        {
+          "threshold": 0.3,
+          "gated_reused": 11,
+          "gated_wrong": 0,
+          "sim_reused": 38,
+          "sim_wrong": 25
+        },
+        {
+          "threshold": 0.35,
+          "gated_reused": 11,
+          "gated_wrong": 0,
+          "sim_reused": 35,
+          "sim_wrong": 22
+        },
+        {
+          "threshold": 0.4,
+          "gated_reused": 11,
+          "gated_wrong": 0,
+          "sim_reused": 30,
+          "sim_wrong": 17
+        },
+        {
+          "threshold": 0.45,
+          "gated_reused": 11,
+          "gated_wrong": 0,
+          "sim_reused": 29,
+          "sim_wrong": 16
+        },
+        {
+          "threshold": 0.5,
+          "gated_reused": 11,
+          "gated_wrong": 0,
+          "sim_reused": 27,
+          "sim_wrong": 15
+        },
+        {
+          "threshold": 0.55,
+          "gated_reused": 10,
+          "gated_wrong": 0,
+          "sim_reused": 22,
+          "sim_wrong": 11
+        },
+        {
+          "threshold": 0.6,
+          "gated_reused": 10,
+          "gated_wrong": 0,
+          "sim_reused": 21,
+          "sim_wrong": 11
+        },
+        {
+          "threshold": 0.65,
+          "gated_reused": 10,
+          "gated_wrong": 0,
+          "sim_reused": 18,
+          "sim_wrong": 8
+        },
+        {
+          "threshold": 0.7,
+          "gated_reused": 8,
+          "gated_wrong": 0,
+          "sim_reused": 13,
+          "sim_wrong": 5
+        },
+        {
+          "threshold": 0.75,
+          "gated_reused": 8,
+          "gated_wrong": 0,
+          "sim_reused": 13,
+          "sim_wrong": 5
+        },
+        {
+          "threshold": 0.8,
+          "gated_reused": 7,
+          "gated_wrong": 0,
+          "sim_reused": 11,
+          "sim_wrong": 4
+        },
+        {
+          "threshold": 0.85,
+          "gated_reused": 5,
+          "gated_wrong": 0,
+          "sim_reused": 7,
+          "sim_wrong": 2
+        },
+        {
+          "threshold": 0.9,
+          "gated_reused": 5,
+          "gated_wrong": 0,
+          "sim_reused": 6,
+          "sim_wrong": 1
+        },
+        {
+          "threshold": 0.95,
+          "gated_reused": 5,
+          "gated_wrong": 0,
+          "sim_reused": 6,
+          "sim_wrong": 1
+        }
+      ],
+      "calibrated": {
+        "threshold": 0.3,
+        "reused": 11,
+        "wrong": 0,
+        "ms_per_lookup": 0.6146531250124099
+      }
+    },
+    "revisions": {
+      "tasks": 40,
+      "sweep": [
+        {
+          "threshold": 0.05,
+          "gated_reused": 11,
+          "gated_wrong": 0,
+          "sim_reused": 40,
+          "sim_wrong": 26
+        },
+        {
+          "threshold": 0.1,
+          "gated_reused": 11,
+          "gated_wrong": 0,
+          "sim_reused": 40,
+          "sim_wrong": 26
+        },
+        {
+          "threshold": 0.15,
+          "gated_reused": 10,
+          "gated_wrong": 0,
+          "sim_reused": 39,
+          "sim_wrong": 25
+        },
+        {
+          "threshold": 0.2,
+          "gated_reused": 9,
+          "gated_wrong": 0,
+          "sim_reused": 36,
+          "sim_wrong": 22
+        },
+        {
+          "threshold": 0.25,
+          "gated_reused": 9,
+          "gated_wrong": 0,
+          "sim_reused": 33,
+          "sim_wrong": 19
+        },
+        {
+          "threshold": 0.3,
+          "gated_reused": 9,
+          "gated_wrong": 0,
+          "sim_reused": 31,
+          "sim_wrong": 17
+        },
+        {
+          "threshold": 0.35,
+          "gated_reused": 9,
+          "gated_wrong": 0,
+          "sim_reused": 28,
+          "sim_wrong": 15
+        },
+        {
+          "threshold": 0.4,
+          "gated_reused": 9,
+          "gated_wrong": 0,
+          "sim_reused": 25,
+          "sim_wrong": 13
+        },
+        {
+          "threshold": 0.45,
+          "gated_reused": 9,
+          "gated_wrong": 0,
+          "sim_reused": 22,
+          "sim_wrong": 10
+        },
+        {
+          "threshold": 0.5,
+          "gated_reused": 9,
+          "gated_wrong": 0,
+          "sim_reused": 21,
+          "sim_wrong": 9
+        },
+        {
+          "threshold": 0.55,
+          "gated_reused": 9,
+          "gated_wrong": 0,
+          "sim_reused": 18,
+          "sim_wrong": 7
+        },
+        {
+          "threshold": 0.6,
+          "gated_reused": 9,
+          "gated_wrong": 0,
+          "sim_reused": 18,
+          "sim_wrong": 7
+        },
+        {
+          "threshold": 0.65,
+          "gated_reused": 9,
+          "gated_wrong": 0,
+          "sim_reused": 15,
+          "sim_wrong": 6
+        },
+        {
+          "threshold": 0.7,
+          "gated_reused": 8,
+          "gated_wrong": 0,
+          "sim_reused": 14,
+          "sim_wrong": 6
+        },
+        {
+          "threshold": 0.75,
+          "gated_reused": 7,
+          "gated_wrong": 0,
+          "sim_reused": 11,
+          "sim_wrong": 4
+        },
+        {
+          "threshold": 0.8,
+          "gated_reused": 6,
+          "gated_wrong": 0,
+          "sim_reused": 7,
+          "sim_wrong": 1
+        },
+        {
+          "threshold": 0.85,
+          "gated_reused": 5,
+          "gated_wrong": 0,
+          "sim_reused": 6,
+          "sim_wrong": 1
+        },
+        {
+          "threshold": 0.9,
+          "gated_reused": 5,
+          "gated_wrong": 0,
+          "sim_reused": 6,
+          "sim_wrong": 1
+        },
+        {
+          "threshold": 0.95,
+          "gated_reused": 5,
+          "gated_wrong": 0,
+          "sim_reused": 5,
+          "sim_wrong": 0
+        }
+      ],
+      "calibrated": {
+        "threshold": 0.3,
+        "reused": 9,
+        "wrong": 0,
+        "ms_per_lookup": 0.6825021002441645
+      }
+    }
+  },
+  "content": {
+    "configs": {
+      "reads": 212,
+      "chars": 459692,
+      "sweep": [
+        {
+          "threshold": 0.3,
+          "sent": 213735,
+          "folds": 164,
+          "exact": 164,
+          "saved_pct": 53.504737954978545,
+          "ms_per_read": 3.1257175707548224
+        },
+        {
+          "threshold": 0.4,
+          "sent": 213735,
+          "folds": 164,
+          "exact": 164,
+          "saved_pct": 53.504737954978545,
+          "ms_per_read": 3.1268738207730182
+        },
+        {
+          "threshold": 0.5,
+          "sent": 213735,
+          "folds": 164,
+          "exact": 164,
+          "saved_pct": 53.504737954978545,
+          "ms_per_read": 3.127937500018029
+        },
+        {
+          "threshold": 0.6,
+          "sent": 213735,
+          "folds": 164,
+          "exact": 164,
+          "saved_pct": 53.504737954978545,
+          "ms_per_read": 3.130302872653734
+        },
+        {
+          "threshold": 0.7,
+          "sent": 213735,
+          "folds": 164,
+          "exact": 164,
+          "saved_pct": 53.504737954978545,
+          "ms_per_read": 3.123934551901052
+        },
+        {
+          "threshold": 0.8,
+          "sent": 213735,
+          "folds": 164,
+          "exact": 164,
+          "saved_pct": 53.504737954978545,
+          "ms_per_read": 3.131737816010224
+        },
+        {
+          "threshold": 0.9,
+          "sent": 361100,
+          "folds": 64,
+          "exact": 64,
+          "saved_pct": 21.44740391392498,
+          "ms_per_read": 3.082729952850814
+        }
+      ]
+    },
+    "hosts": {
+      "reads": 175,
+      "chars": 439877,
+      "sweep": [
+        {
+          "threshold": 0.3,
+          "sent": 213918,
+          "folds": 151,
+          "exact": 151,
+          "saved_pct": 51.368678062276494,
+          "ms_per_read": 4.1561792857412785
+        },
+        {
+          "threshold": 0.4,
+          "sent": 213918,
+          "folds": 151,
+          "exact": 151,
+          "saved_pct": 51.368678062276494,
+          "ms_per_read": 4.08113071428878
+        },
+        {
+          "threshold": 0.5,
+          "sent": 213918,
+          "folds": 151,
+          "exact": 151,
+          "saved_pct": 51.368678062276494,
+          "ms_per_read": 4.073743097168127
+        },
+        {
+          "threshold": 0.6,
+          "sent": 213918,
+          "folds": 151,
+          "exact": 151,
+          "saved_pct": 51.368678062276494,
+          "ms_per_read": 4.085604525753297
+        },
+        {
+          "threshold": 0.7,
+          "sent": 213918,
+          "folds": 151,
+          "exact": 151,
+          "saved_pct": 51.368678062276494,
+          "ms_per_read": 4.099975954325471
+        },
+        {
+          "threshold": 0.8,
+          "sent": 213918,
+          "folds": 151,
+          "exact": 151,
+          "saved_pct": 51.368678062276494,
+          "ms_per_read": 4.05185380576378
+        },
+        {
+          "threshold": 0.9,
+          "sent": 213918,
+          "folds": 151,
+          "exact": 151,
+          "saved_pct": 51.368678062276494,
+          "ms_per_read": 4.070434045695167
+        }
+      ]
+    },
+    "code": {
+      "reads": 283,
+      "chars": 759713,
+      "sweep": [
+        {
+          "threshold": 0.3,
+          "sent": 278242,
+          "folds": 139,
+          "exact": 139,
+          "saved_pct": 63.375379913204064,
+          "ms_per_read": 3.144083183745001
+        },
+        {
+          "threshold": 0.4,
+          "sent": 278242,
+          "folds": 139,
+          "exact": 139,
+          "saved_pct": 63.375379913204064,
+          "ms_per_read": 3.1387338056595167
+        },
+        {
+          "threshold": 0.5,
+          "sent": 278242,
+          "folds": 139,
+          "exact": 139,
+          "saved_pct": 63.375379913204064,
+          "ms_per_read": 3.1463305371058214
+        },
+        {
+          "threshold": 0.6,
+          "sent": 278242,
+          "folds": 139,
+          "exact": 139,
+          "saved_pct": 63.375379913204064,
+          "ms_per_read": 3.1455426961582567
+        },
+        {
+          "threshold": 0.7,
+          "sent": 278242,
+          "folds": 139,
+          "exact": 139,
+          "saved_pct": 63.375379913204064,
+          "ms_per_read": 3.1440207597309255
+        },
+        {
+          "threshold": 0.8,
+          "sent": 278242,
+          "folds": 139,
+          "exact": 139,
+          "saved_pct": 63.375379913204064,
+          "ms_per_read": 3.1518858940033705
+        },
+        {
+          "threshold": 0.9,
+          "sent": 585627,
+          "folds": 50,
+          "exact": 50,
+          "saved_pct": 22.914705948167267,
+          "ms_per_read": 3.1961037985821723
+        }
+      ]
+    },
+    "revisions": {
+      "reads": 198,
+      "chars": 434247,
+      "sweep": [
+        {
+          "threshold": 0.3,
+          "sent": 228829,
+          "folds": 170,
+          "exact": 170,
+          "saved_pct": 47.30441430798601,
+          "ms_per_read": 3.805483161645819
+        },
+        {
+          "threshold": 0.4,
+          "sent": 228829,
+          "folds": 170,
+          "exact": 170,
+          "saved_pct": 47.30441430798601,
+          "ms_per_read": 3.8190037878600624
+        },
+        {
+          "threshold": 0.5,
+          "sent": 228829,
+          "folds": 170,
+          "exact": 170,
+          "saved_pct": 47.30441430798601,
+          "ms_per_read": 3.797150464673207
+        },
+        {
+          "threshold": 0.6,
+          "sent": 228829,
+          "folds": 170,
+          "exact": 170,
+          "saved_pct": 47.30441430798601,
+          "ms_per_read": 3.813666873758499
+        },
+        {
+          "threshold": 0.7,
+          "sent": 224942,
+          "folds": 167,
+          "exact": 167,
+          "saved_pct": 48.199526997307984,
+          "ms_per_read": 3.7883518535186385
+        },
+        {
+          "threshold": 0.8,
+          "sent": 220860,
+          "folds": 155,
+          "exact": 155,
+          "saved_pct": 49.139545005492266,
+          "ms_per_read": 3.7916214242806854
+        },
+        {
+          "threshold": 0.9,
+          "sent": 222439,
+          "folds": 133,
+          "exact": 133,
+          "saved_pct": 48.775927064550814,
+          "ms_per_read": 3.81739962117857
+        }
+      ]
+    },
+    "threads": {
+      "reads": 710,
+      "chars": 681171,
+      "sweep": [
+        {
+          "threshold": 0.3,
+          "sent": 681171,
+          "folds": 0,
+          "exact": 0,
+          "saved_pct": 0.0,
+          "ms_per_read": 1.6543572183008122
+        },
+        {
+          "threshold": 0.4,
+          "sent": 681171,
+          "folds": 0,
+          "exact": 0,
+          "saved_pct": 0.0,
+          "ms_per_read": 1.658501232376578
+        },
+        {
+          "threshold": 0.5,
+          "sent": 681171,
+          "folds": 0,
+          "exact": 0,
+          "saved_pct": 0.0,
+          "ms_per_read": 1.6525370887444604
+        },
+        {
+          "threshold": 0.6,
+          "sent": 681171,
+          "folds": 0,
+          "exact": 0,
+          "saved_pct": 0.0,
+          "ms_per_read": 1.652797183098147
+        },
+        {
+          "threshold": 0.7,
+          "sent": 681171,
+          "folds": 0,
+          "exact": 0,
+          "saved_pct": 0.0,
+          "ms_per_read": 1.6646361507067102
+        },
+        {
+          "threshold": 0.8,
+          "sent": 681171,
+          "folds": 0,
+          "exact": 0,
+          "saved_pct": 0.0,
+          "ms_per_read": 1.6397639084484388
+        },
+        {
+          "threshold": 0.9,
+          "sent": 681171,
+          "folds": 0,
+          "exact": 0,
+          "saved_pct": 0.0,
+          "ms_per_read": 1.634093661977857
+        }
+      ]
+    },
+    "logs": {
+      "reads": 181,
+      "chars": 1375218,
+      "sweep": [
+        {
+          "threshold": 0.3,
+          "sent": 1375218,
+          "folds": 0,
+          "exact": 0,
+          "saved_pct": 0.0,
+          "ms_per_read": 2.257804099460086
+        },
+        {
+          "threshold": 0.4,
+          "sent": 1375218,
+          "folds": 0,
+          "exact": 0,
+          "saved_pct": 0.0,
+          "ms_per_read": 2.260299955764194
+        },
+        {
+          "threshold": 0.5,
+          "sent": 1375218,
+          "folds": 0,
+          "exact": 0,
+          "saved_pct": 0.0,
+          "ms_per_read": 2.2569263369380113
+        },
+        {
+          "threshold": 0.6,
+          "sent": 1375218,
+          "folds": 0,
+          "exact": 0,
+          "saved_pct": 0.0,
+          "ms_per_read": 2.2625637679516455
+        },
+        {
+          "threshold": 0.7,
+          "sent": 1375218,
+          "folds": 0,
+          "exact": 0,
+          "saved_pct": 0.0,
+          "ms_per_read": 2.271735955811831
+        },
+        {
+          "threshold": 0.8,
+          "sent": 1375218,
+          "folds": 0,
+          "exact": 0,
+          "saved_pct": 0.0,
+          "ms_per_read": 2.251624077293528
+        },
+        {
+          "threshold": 0.9,
+          "sent": 1375218,
+          "folds": 0,
+          "exact": 0,
+          "saved_pct": 0.0,
+          "ms_per_read": 2.2751724254854477
+        }
+      ]
+    }
+  }
+}
